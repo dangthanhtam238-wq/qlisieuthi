@@ -47,7 +47,7 @@
             this.lblTieuDe.Name = "lblTieuDe";
             this.lblTieuDe.Size = new System.Drawing.Size(337, 39);
             this.lblTieuDe.TabIndex = 0;
-            this.lblTieuDe.Text = "QUẢN LÝ SIÊU THỊ";
+            this.lblTieuDe.Text = "QUáº¢N LÃ SIÃŠU THá»Š";
             // 
             // btnSanPham
             // 
@@ -55,8 +55,9 @@
             this.btnSanPham.Name = "btnSanPham";
             this.btnSanPham.Size = new System.Drawing.Size(211, 46);
             this.btnSanPham.TabIndex = 1;
-            this.btnSanPham.Text = "Quản lý sản phẩm";
+            this.btnSanPham.Text = "Quáº£n lÃ½ sáº£n pháº©m";
             this.btnSanPham.UseVisualStyleBackColor = true;
+            this.btnSanPham.Click += new System.EventHandler(this.btnSanPham_Click);
             // 
             // btnLoaiSanPham
             // 
@@ -64,8 +65,9 @@
             this.btnLoaiSanPham.Name = "btnLoaiSanPham";
             this.btnLoaiSanPham.Size = new System.Drawing.Size(211, 53);
             this.btnLoaiSanPham.TabIndex = 2;
-            this.btnLoaiSanPham.Text = "Quản lý loại sản phẩm";
+            this.btnLoaiSanPham.Text = "Quáº£n lÃ½ loáº¡i sáº£n pháº©m";
             this.btnLoaiSanPham.UseVisualStyleBackColor = true;
+            this.btnLoaiSanPham.Click += new System.EventHandler(this.btnLoaiSanPham_Click);
             // 
             // btnNhaCungCap
             // 
@@ -73,8 +75,9 @@
             this.btnNhaCungCap.Name = "btnNhaCungCap";
             this.btnNhaCungCap.Size = new System.Drawing.Size(211, 52);
             this.btnNhaCungCap.TabIndex = 3;
-            this.btnNhaCungCap.Text = "Quản lý nhà cung cấp";
+            this.btnNhaCungCap.Text = "Quáº£n lÃ½ nhÃ  cung cáº¥p";
             this.btnNhaCungCap.UseVisualStyleBackColor = true;
+            this.btnNhaCungCap.Click += new System.EventHandler(this.btnNhaCungCap_Click);
             // 
             // btnNhanVien
             // 
@@ -82,7 +85,7 @@
             this.btnNhanVien.Name = "btnNhanVien";
             this.btnNhanVien.Size = new System.Drawing.Size(211, 46);
             this.btnNhanVien.TabIndex = 4;
-            this.btnNhanVien.Text = "Quản lý nhân viên";
+            this.btnNhanVien.Text = "Quáº£n lÃ½ nhÃ¢n viÃªn";
             this.btnNhanVien.UseVisualStyleBackColor = true;
             // 
             // btnBanHang
@@ -91,7 +94,7 @@
             this.btnBanHang.Name = "btnBanHang";
             this.btnBanHang.Size = new System.Drawing.Size(204, 46);
             this.btnBanHang.TabIndex = 5;
-            this.btnBanHang.Text = "Bán Hàng";
+            this.btnBanHang.Text = "BÃ¡n HÃ ng";
             this.btnBanHang.UseVisualStyleBackColor = true;
             // 
             // btnHoaDon
@@ -100,7 +103,7 @@
             this.btnHoaDon.Name = "btnHoaDon";
             this.btnHoaDon.Size = new System.Drawing.Size(204, 53);
             this.btnHoaDon.TabIndex = 6;
-            this.btnHoaDon.Text = "Quản lý hóa đơn";
+            this.btnHoaDon.Text = "Quáº£n lÃ½ hÃ³a Ä‘Æ¡n";
             this.btnHoaDon.UseVisualStyleBackColor = true;
             this.btnHoaDon.Click += new System.EventHandler(this.btnHoaDon_Click);
             // 
@@ -110,7 +113,7 @@
             this.btnThongKe.Name = "btnThongKe";
             this.btnThongKe.Size = new System.Drawing.Size(204, 46);
             this.btnThongKe.TabIndex = 7;
-            this.btnThongKe.Text = "Thống kê";
+            this.btnThongKe.Text = "Thá»‘ng kÃª";
             this.btnThongKe.UseVisualStyleBackColor = true;
             // 
             // btnThoat
@@ -119,7 +122,7 @@
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(204, 52);
             this.btnThoat.TabIndex = 8;
-            this.btnThoat.Text = "Thoát";
+            this.btnThoat.Text = "ThoÃ¡t";
             this.btnThoat.UseVisualStyleBackColor = true;
             // 
             // FrmMain
@@ -138,7 +141,7 @@
             this.Controls.Add(this.lblTieuDe);
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "QUẢN LÝ SIÊU THỊ";
+            this.Text = "QUáº¢N LÃ SIÃŠU THá»Š";
             this.ResumeLayout(false);
             this.PerformLayout();
 

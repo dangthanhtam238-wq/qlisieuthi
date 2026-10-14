@@ -5,7 +5,7 @@ namespace QuanLySieuThi
     public class Database
     {
         private string connectionString =
-            @"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLySieuThi;Integrated Security=True";
+            @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=QuanLySieuThi;User ID=sa;Password=123456";
 
         public SqlConnection GetConnection()
         {

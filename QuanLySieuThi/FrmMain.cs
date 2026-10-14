@@ -21,5 +21,23 @@ namespace QuanLySieuThi
         {
 
         }
+
+        private void btnSanPham_Click(object sender, EventArgs e)
+        {
+            FrmSanPham frmSanPham = new FrmSanPham();
+            frmSanPham.ShowDialog();
+        }
+
+        private void btnLoaiSanPham_Click(object sender, EventArgs e)
+        {
+            FrmLoaiSanPham frmLoaiSanPham = new FrmLoaiSanPham();
+            frmLoaiSanPham.ShowDialog();
+        }
+
+        private void btnNhaCungCap_Click(object sender, EventArgs e)
+        {
+            FrmNhaCungCap frmNhaCungCap = new FrmNhaCungCap();
+            frmNhaCungCap.ShowDialog();
+        }
     }
 }

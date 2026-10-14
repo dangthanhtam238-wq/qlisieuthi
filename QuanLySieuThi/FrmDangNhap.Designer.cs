@@ -43,7 +43,7 @@
             this.lblTenDangNhap.Name = "lblTenDangNhap";
             this.lblTenDangNhap.Size = new System.Drawing.Size(101, 16);
             this.lblTenDangNhap.TabIndex = 1;
-            this.lblTenDangNhap.Text = "Tên đăng nhập:";
+            this.lblTenDangNhap.Text = "TÃªn Ä‘Äƒng nháº­p:";
             // 
             // txtTenDangNhap
             // 
@@ -59,7 +59,7 @@
             this.lblMatKhau.Name = "lblMatKhau";
             this.lblMatKhau.Size = new System.Drawing.Size(64, 16);
             this.lblMatKhau.TabIndex = 3;
-            this.lblMatKhau.Text = "Mật khẩu:";
+            this.lblMatKhau.Text = "Máº­t kháº©u:";
             // 
             // txtMatKhau
             // 
@@ -75,7 +75,7 @@
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(109, 35);
             this.btnDangNhap.TabIndex = 5;
-            this.btnDangNhap.Text = "Đăng nhập";
+            this.btnDangNhap.Text = "ÄÄƒng nháº­p";
             this.btnDangNhap.UseVisualStyleBackColor = true;
             this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
             // 
@@ -85,7 +85,7 @@
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(98, 35);
             this.btnThoat.TabIndex = 6;
-            this.btnThoat.Text = "Thoát";
+            this.btnThoat.Text = "ThoÃ¡t";
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
@@ -101,6 +101,7 @@
             this.Controls.Add(this.txtTenDangNhap);
             this.Controls.Add(this.lblTenDangNhap);
             this.Name = "formDangNhap";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -116,4 +117,3 @@
         private System.Windows.Forms.Button btnThoat;
     }
 }
-
